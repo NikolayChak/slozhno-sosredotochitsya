@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    min-inline-size: 375px;
+    max-inline-size: 1440px;
+    margin: 0 auto;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: var(--text-font-size);
+    line-height: var(--text-line-height);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    font-size: var(--text-font-size);
+    color: var(--text-color);
+    line-height: 23.4px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+picture {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+button,
+a {
+    color: currentColor;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-decoration: none;
+}

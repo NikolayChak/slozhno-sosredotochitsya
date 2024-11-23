@@ -1,0 +1,32 @@
+
+:root {
+    --content-padding: 10px;
+    --content-padding-block: 40px;
+    --paragraph: 10px;
+
+    --background-color: #000028;
+    --background-image: url(../images/cover-image-dark.png);
+    --accent-color: #ff0070;
+    --button-color: #ff0070;
+    --primary-heading-color: #db00ff;
+    --section-heading-color: #ff0070;
+    --title-color: #000028;
+    --text-color: #f1b2ce;
+
+    --primary-heading-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --text-font-size: 18px;
+    --text-line-height: 23.4px;
+}
+
+
+@media (768px <= width) {
+    :root {
+        --primary-heading-font-size: clamp(
+                7.5rem,
+                0.5625rem + 14.4531vw,
+                9.8125rem
+        );
+        --content-padding: 20px;
+        --content-padding-block: 60px;
+    }
+}
